@@ -4,7 +4,7 @@ from lease_contract.app import lease_contract_menu
 
 while True:
     print("Make your choice")
-    option = input("1 - Car, 2 - client, 3 - Lease Contract, 4 - Exit: ")
+    option = input("1 - Car, 2 - Client, 3 - Lease Contract, 4 - Exit: ")
 
     if option == '1':
         print("What you want to do? ")

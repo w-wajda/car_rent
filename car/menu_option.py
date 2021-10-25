@@ -44,19 +44,18 @@ class CarMenu:
         cars = self.get_cars_by_input_brand()
 
         if not cars:
-            raise WrongOptionException("No car in the database")
+            print("No car in the database")
+            try:
+                to_add = int(input("Do you want add a car? 1  - YES, 2 - NO: "))
 
-        try:
-            to_add = int(input("Do you want add a car? 1  - YES, 2 - NO: "))
-        except ValueError:
-            raise WrongOptionException('You chose the wrong option')
-
-        if to_add == 1:
-            self.add_car()
+                if to_add == 1:
+                    self.add_car()
+                else:
+                    print("Maybe another time")
+            except ValueError:
+                raise WrongOptionException('You chose the wrong option')
         else:
-            print("Maybe another time")
-
-        self.shows_the_details_of_the_cars(cars)
+            self.shows_the_details_of_the_cars(cars)
 
     def edit_car(self):
         cars = self.get_cars_by_input_brand()

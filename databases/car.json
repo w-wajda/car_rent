@@ -75,5 +75,12 @@
         "model": "k",
         "years": "2017",
         "rental_price": "150"
+    },
+    {
+        "id": 12,
+        "brand": "opel",
+        "model": "zafira",
+        "years": "2019",
+        "rental_price": "260"
     }
 ]
