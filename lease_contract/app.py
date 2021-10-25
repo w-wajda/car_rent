@@ -1,9 +1,9 @@
-from car_rent.car.models import CarDatabase
-from car_rent.client.models import ClientDatabase
-from car_rent.exceptions import WrongOptionException
+from car.models import CarDatabase
+from client.models import ClientDatabase
+from exceptions import WrongOptionException
 
-from car_rent.lease_contract.models import LeaseContractDatabase
-from car_rent.lease_contract.menu_option import LeaseContractMenu
+from lease_contract.models import LeaseContractDatabase
+from lease_contract.menu_option import LeaseContractMenu
 
 
 def lease_contract_menu():

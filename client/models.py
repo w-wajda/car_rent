@@ -4,8 +4,8 @@ from typing import (
     Optional
 )
 
-from car_rent.address import Address
-from car_rent.database import Database
+from address import Address
+from database import Database
 
 FILENAME_JSON = "databases/client.json"
 

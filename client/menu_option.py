@@ -1,8 +1,8 @@
-from car_rent.client.models import (
+from client.models import (
     Client,
     ClientDatabase,
 )
-from car_rent.exceptions import WrongOptionException
+from exceptions import WrongOptionException
 
 
 class ClientMenu:

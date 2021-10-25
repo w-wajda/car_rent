@@ -4,12 +4,12 @@ from typing import (
     Dict,
 )
 
-from car_rent.client.models import Client, ClientDatabase
-from car_rent.car.models import Car, CarDatabase
-from car_rent.utils.validator import Validator
-from car_rent.database import Database
+from client.models import Client, ClientDatabase
+from car.models import Car, CarDatabase
+from utils.validator import Validator
+from database import Database
 
-from car_rent.exceptions import (
+from exceptions import (
     InvalidLeaseContractData,
     ClientNotFound
 )

@@ -1,6 +1,6 @@
-from car_rent.car.app import car_app_menu
-from car_rent.client.app import client_app_menu
-from car_rent.lease_contract.app import lease_contract_menu
+from car.app import car_app_menu
+from client.app import client_app_menu
+from lease_contract.app import lease_contract_menu
 
 while True:
     print("Make your choice")

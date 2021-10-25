@@ -1,13 +1,13 @@
-from car_rent.exceptions import (
+from exceptions import (
     InvalidLeaseContractData,
     ClientNotFound,
     WrongOptionException
 )
 
-from car_rent.car.models import CarDatabase
-from car_rent.client.models import ClientDatabase
+from car.models import CarDatabase
+from client.models import ClientDatabase
 
-from car_rent.lease_contract.models import (
+from lease_contract.models import (
     LeaseContract,
     LeaseContractDatabase
 )

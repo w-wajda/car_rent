@@ -3,7 +3,7 @@ from typing import (
     Dict
 )
 
-from car_rent.database import Database
+from database import Database
 
 FILENAME_JSON = "databases/car.json"
 

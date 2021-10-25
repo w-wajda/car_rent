@@ -1,6 +1,6 @@
 from typing import Dict
 
-from car_rent.utils.validator import Validator
+from utils.validator import Validator
 
 
 class Address:
