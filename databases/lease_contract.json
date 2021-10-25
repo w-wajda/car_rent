@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "date_start": "2021-09-15",
+        "date_end": "2021-09-20",
+        "car_id": 3,
+        "client_id": 3
+    },
+    {
+        "id": 2,
+        "date_start": "2021-09-17",
+        "date_end": "2021-09-22",
+        "car_id": 1,
+        "client_id": 2
+    },
+    {
+        "id": 3,
+        "date_start": "2021-09-29",
+        "date_end": "2021-09-30",
+        "car_id": 1,
+        "client_id": 4
+    },
+    {
+        "id": 4,
+        "date_start": "2021-09-25",
+        "date_end": "2021-09-30",
+        "car_id": 1,
+        "client_id": 4
+    },
+    {
+        "id": 5,
+        "date_start": "2021-09-21",
+        "date_end": "2021-09-22",
+        "car_id": 1,
+        "client_id": 2
+    },
+    {
+        "id": 6,
+        "date_start": "2021-09-22",
+        "date_end": "2021-09-25",
+        "car_id": 1,
+        "client_id": 2
+    },
+    {
+        "id": 7,
+        "date_start": "2020-10-10",
+        "date_end": "2021-01-01",
+        "car_id": 2,
+        "client_id": 4
+    },
+    {
+        "id": 8,
+        "date_start": "2019-06-01",
+        "date_end": "2019-08-31",
+        "car_id": 4,
+        "client_id": 5
+    }
+]

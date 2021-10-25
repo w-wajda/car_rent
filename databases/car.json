@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "brand": "mercedes",
+        "model": "cls",
+        "years": "2018",
+        "rental_price": "200"
+    },
+    {
+        "id": 2,
+        "brand": "bmw",
+        "model": "x5",
+        "years": "2017",
+        "rental_price": "300"
+    },
+    {
+        "id": 3,
+        "brand": "bmw",
+        "model": "5",
+        "years": "2020",
+        "rental_price": "350"
+    },
+    {
+        "id": 4,
+        "brand": "fiat",
+        "model": "panda",
+        "years": "2010",
+        "rental_price": "100"
+    },
+    {
+        "id": 5,
+        "brand": "kia",
+        "model": "ceed",
+        "years": "2020",
+        "rental_price": "220"
+    },
+    {
+        "id": 6,
+        "brand": "fiat",
+        "model": "mondeo",
+        "years": "2019",
+        "rental_price": "260"
+    },
+    {
+        "id": 7,
+        "brand": "kia",
+        "model": "rio",
+        "years": "2021",
+        "rental_price": "220"
+    },
+    {
+        "id": 8,
+        "brand": "fiat",
+        "model": "panda",
+        "years": "2017",
+        "rental_price": "170"
+    },
+    {
+        "id": 9,
+        "brand": "toyota",
+        "model": "corolla",
+        "years": "2019",
+        "rental_price": "200"
+    },
+    {
+        "id": 10,
+        "brand": "ford",
+        "model": "mondeo",
+        "years": "2018",
+        "rental_price": "230"
+    },
+    {
+        "id": 11,
+        "brand": "ford",
+        "model": "k",
+        "years": "2017",
+        "rental_price": "150"
+    }
+]
